@@ -23,5 +23,8 @@ $(document).ready(function(){
  		$("<input type='button' id='toggleButton' value='toggle'/>").insertAfter("#disclaimer");
  		$("#toggleButton").click(function(){
  			$("#disclaimer").toggle();
- 		})
+ 		});
+ 		$('<strong>START</strong>').prependTo('#disclaimer')
+ 		$('<strong>END</strong>').appendTo('#disclaimer')
+
 });
